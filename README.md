@@ -1,4 +1,4 @@
-Este repositorio contiene el código para convertir ficciones de Autorol 3.0 (formato JSON) en aplicaciones Android.
+Este repositorio contiene el código para convertir ficciones de Autorol 3.0 en aplicaciones Android.
 
 
 REQUISITOS INFORMÁTICOS
@@ -18,7 +18,7 @@ REQUISITOS INFORMÁTICOS
 
 CONSIDERACIONES EN EL MOMENTO DE ESCRIBIR LA FICCIÓN EN AUTOROL:
 
-- La ficción puede contener variables de cualquier valor numérico, pero las comparaciones seran siempre de igualdad. El código no entiende comparaciones tipo "si x < 3" o "si x > 3".
+- La ficción puede contener variables de cualquier valor numérico, pero las comparaciones serán siempre de igualdad. El código no entiende comparaciones tipo "si x < 3" o "si x > 3".
 
 - El texto de la ficción puede estar centrado o alienado a la derecha. En caso de querer cambiar el alineamiento dentro de una misma escena, debe usarse una caja de texto nueva.
 
@@ -32,8 +32,10 @@ CONSIDERACIONES EN EL MOMENTO DE ESCRIBIR LA FICCIÓN EN AUTOROL:
 
 - No utilizar frames ni nada fancy.
 
+- No es necesario incluir un botón "Volver a empezar" en las escenas de muerte. Éste se incluye automáticamente.
+
 - La ficción debe expotarse formato JSON desde Autorol 3.0.
-  
+
 
 CONSIDERACIONES EN EL MOMENTO DE CREAR LA APP:
 
@@ -45,6 +47,8 @@ PARA EMPAQUETARLA:
 - El archivo JSON debe incluirse en el mismo directorio que contiene el archivo `main.py`
 
 - El archivo `autorol.utils` debe incluirse en el mismo directorio que contiene el archivo `main.py`
+
+- El archivo `.kv`, que contiene instrucciones del formato de la app, debe incluirse en el mismo directorio que contiene el archivo `main.py`. Después de ver el tutorial de Kivy puedes trastear en él para customizar tu app.
 
 - En caso de usar varias fuentes, deben guardarse en formato .ttf en un directorio llamado "fonts" dentro del directorio que contiene el archivo `main.py`.
   
