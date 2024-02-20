@@ -24,7 +24,7 @@ CONSIDERACIONES EN EL MOMENTO DE ESCRIBIR LA FICCIÓN EN AUTOROL:
 
 - La ficción puede contener variables de cualquier valor numérico, pero las comparaciones serán siempre de igualdad. El código no entiende comparaciones tipo "si x < 3" o "si x > 3".
 
-- El texto de la ficción puede estar centrado o alienado a la derecha. En caso de querer cambiar el alineamiento dentro de una misma escena, debe usarse una caja de texto nueva.
+- El texto de la ficción puede estar centrado o alienado a la izquierda. En caso de querer cambiar el alineamiento dentro de una misma escena, debe usarse una caja de texto nueva.
 
 - Los enlaces deben estar situados siempre al final de la escena. Pueden incluirse, o no, en una caja que contenga texto.
 
