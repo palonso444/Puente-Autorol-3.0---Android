@@ -1,6 +1,7 @@
 Este repositorio contiene el código para convertir ficciones de Autorol 3.0 (formato JSON) en aplicaciones Android.
 
-REQUISITOS
+
+REQUISITOS INFORMÁTICOS
 
 - Sistema operativo Windows.
   
@@ -13,4 +14,48 @@ REQUISITOS
 - Buildozer (para empaquetar la app en formato APK o AAB). INSTALA BUILDOZER: https://buildozer.readthedocs.io/en/latest/installation.html TUTORIAL SOBRE USAR BUILDOZER: https://www.youtube.com/watch?v=pzsvN3fuBA0
 
 - Windows Subsystem for Linux version 2 (WSL2). TUTORIAL SOBRE COMO INSTALARLO: https://www.youtube.com/watch?v=pzsvN3fuBA0 ¡¡IMPORTANTE!!: El WSL debe ser cambiado a version 2 o el proceso de empaquetamiento no funcinará. Esto no se menciona en el tutorial. Para cambiar WSL1 a WSL2, usa el comando `wsl --set-v ubuntu 2` en Windows cmd. Mas info aquí: https://www.youtube.com/watch?v=JBwgsIWUMZQ
+
+
+CONSIDERACIONES EN EL MOMENTO DE ESCRIBIR LA FICCIÓN EN AUTOROL:
+
+- La ficción puede contener variables de cualquier valor numérico, pero las comparaciones seran siempre de igualdad. El código no entiende comparaciones tipo "si x < 3" o "si x > 3".
+
+- El texto de la ficción puede estar centrado o alienado a la derecha. En caso de querer cambiar el alineamiento dentro de una misma escena, debe usarse una caja de texto nueva.
+
+- Los enlaces deben estar situados siempre al final de la escena. Pueden incluirse, o no, en una caja que contenga texto.
+
+- Se pueden incluir condiciones o consecuencias tanto en el texto como en los enlaces.
+
+- Se puede usar negrita, cursiva y subrayado.
+
+- Las imágenes deben añadirse en una caja de texto independiente que no contenga nada más.
+
+- No utilizar frames ni nada fancy.
+
+- La ficción debe expotarse formato JSON desde Autorol 3.0.
+  
+
+CONSIDERACIONES EN EL MOMENTO DE CREAR LA APP:
+
+- Echa un vistazo al archivo `main.py` ya que contiene comentarios que indican los pequeños cambios que hay que hacer para adaptarlo a tu ficción.
+
+
+PARA EMPAQUETARLA:
+
+- El archivo JSON debe incluirse en el mismo directorio que contiene el archivo `main.py`
+
+- El archivo `autorol.utils` debe incluirse en el mismo directorio que contiene el archivo `main.py`
+
+- En caso de usar varias fuentes, deben guardarse en formato .ttf en un directorio llamado "fonts" dentro del directorio que contiene el archivo `main.py`.
+  
+- En caso de usar imágenes, éstas deben guardarse en formato .png o .jpg en un directorio llamado "pics" dentro del directorio que contiene el archivo `main.py`.
+
+
+CUALQUIER DUDA O ERROR: pol.alonso@gmail.com
+
+Disfrutad!
+
+
+
+
 
