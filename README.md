@@ -54,7 +54,7 @@ PARA EMPAQUETARLA:
 
 - El archivo `.kv`, que contiene instrucciones del formato de la app, debe incluirse en el mismo directorio que contiene el archivo `main.py`. Después de ver el tutorial de Kivy puedes trastear en él para customizar tu app.
 
-- En caso de usar varias fuentes, deben guardarse en formato `.ttf` en un directorio llamado `fonts` dentro del directorio que contiene el archivo `main.py`.
+- En caso de usar varias fuentes, éstas deben guardarse en formato `.ttf` en un directorio llamado `fonts` dentro del directorio que contiene el archivo `main.py`.
   
 - En caso de usar imágenes, éstas deben guardarse en formato `.png` o `.jpg` en un directorio llamado `pics` dentro del directorio que contiene el archivo `main.py`.
 
