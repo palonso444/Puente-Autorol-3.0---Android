@@ -47,6 +47,8 @@ CONSIDERACIONES EN EL MOMENTO DE CREAR LA APP:
 
 - Echa un vistazo al archivo `main.py` ya que contiene comentarios que indican los pequeños cambios que hay que hacer para adaptarlo a tu ficción.
 
+- Nombra el archivo `.kv` con el nombre de tu app en minuscula. Ejemplo: miapp.kv. Usa ese mismo nombre en el archivo `main.py` 
+
 - El archivo `.kv` contiene instrucciones referentes al formato de la app. Después de ver el tutorial de Kivy puedes trastear en él para customizarla.
 
 
