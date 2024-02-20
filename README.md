@@ -10,14 +10,14 @@ REQUISITOS INFORMÁTICOS
 - Una IDE (yo usé VSCode). INSTALA VSCODE: https://code.visualstudio.com/download
   
 - La herramienta Kivy (el código fue escrito en la version 2.3.0). INSTALA KIVY: https://kivy.org/doc/stable/gettingstarted/installation.html#install-kivy TUTORIAL SOBRE USAR KIVY: https://www.youtube.com/watch?v=l8Imtec4ReQ
-  
-- Buildozer (para empaquetar la app en formato APK o AAB). INSTALA BUILDOZER: https://buildozer.readthedocs.io/en/latest/installation.html TUTORIAL SOBRE USAR BUILDOZER: https://www.youtube.com/watch?v=pzsvN3fuBA0
 
 - Windows Subsystem for Linux version 2 (WSL2). TUTORIAL SOBRE COMO INSTALARLO: https://www.youtube.com/watch?v=pzsvN3fuBA0 ¡¡IMPORTANTE!!: El WSL debe ser cambiado a version 2 o el proceso de empaquetamiento no funcionará. Esto no se menciona en el tutorial. Para cambiar WSL1 a WSL2, usa el comando `wsl --set-v ubuntu 2` en Windows cmd. Mas info aquí: https://www.youtube.com/watch?v=JBwgsIWUMZQ
 
 - Python instalado también en el WSL2: `sudo apt install python3`
 
 - Kivy instalado también en el WSL2:`sudo apt install -y python3-pip python3-setuptools python3-dev libgles2-mesa-dev libgl1-mesa-dev libgstreamer1.0-dev git-core ffmpeg libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev zlib1g-dev` y después `pip3 install kivy`
+
+- Buildozer instalado en el WSL2 (herramienta para empaquetar la app en formato APK o AAB). INSTALA BUILDOZER: https://buildozer.readthedocs.io/en/latest/installation.html TUTORIAL SOBRE USAR BUILDOZER: https://www.youtube.com/watch?v=pzsvN3fuBA0
 
 
 CONSIDERACIONES EN EL MOMENTO DE ESCRIBIR LA FICCIÓN EN AUTOROL:
