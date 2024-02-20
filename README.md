@@ -45,7 +45,7 @@ CONSIDERACIONES EN EL MOMENTO DE ESCRIBIR LA FICCIÓN EN AUTOROL:
 
 CONSIDERACIONES EN EL MOMENTO DE CREAR LA APP:
 
-- Echa un vistazo al archivo `main.py` ya que contiene comentarios que indican los pequeños cambios que hay que hacer para adaptarlo a tu ficción.
+- Echa un vistazo los archivos `.kv` y `main.py` ya que contienen comentarios (en mayúsculas) que indican los pequeños cambios que hay que hacer para adaptarlos a tu ficción.
 
 - Nombra el archivo `.kv` con el nombre de tu app en minuscula. Ejemplo: `miapp.kv`. Usa ese mismo nombre dónde se requiera dentro del archivo `main.py` 
 
