@@ -48,7 +48,7 @@ CONSIDERACIONES EN EL MOMENTO DE CREAR LA APP:
 
 PARA EMPAQUETARLA:
 
-- El archivo JSON debe incluirse en el mismo directorio que contiene el archivo `main.py`
+- El archivo `.json` debe incluirse en el mismo directorio que contiene el archivo `main.py`
 
 - El archivo `autorol.utils` debe incluirse en el mismo directorio que contiene el archivo `main.py`
 
