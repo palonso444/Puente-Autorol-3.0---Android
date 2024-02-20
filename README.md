@@ -38,7 +38,7 @@ CONSIDERACIONES EN EL MOMENTO DE ESCRIBIR LA FICCIÓN EN AUTOROL:
 
 - No es necesario incluir un botón "Volver a empezar" en las escenas de muerte. Éste se incluye automáticamente.
 
-- La ficción debe expotarse formato JSON desde Autorol 3.0.
+- La ficción debe expotarse formato `.json` desde Autorol 3.0.
 
 
 CONSIDERACIONES EN EL MOMENTO DE CREAR LA APP:
