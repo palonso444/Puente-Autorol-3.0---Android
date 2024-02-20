@@ -34,6 +34,8 @@ CONSIDERACIONES EN EL MOMENTO DE ESCRIBIR LA FICCIÓN EN AUTOROL:
 
 - Las imágenes deben añadirse en una caja de texto independiente que no contenga nada más.
 
+- No se pueden utilizar tiradas de dados.
+
 - No utilizar frames ni nada fancy.
 
 - No es necesario incluir un botón "Volver a empezar" en las escenas de muerte. Éste se incluye automáticamente.
