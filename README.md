@@ -13,7 +13,7 @@ REQUISITOS INFORMÁTICOS
   
 - Buildozer (para empaquetar la app en formato APK o AAB). INSTALA BUILDOZER: https://buildozer.readthedocs.io/en/latest/installation.html TUTORIAL SOBRE USAR BUILDOZER: https://www.youtube.com/watch?v=pzsvN3fuBA0
 
-- Windows Subsystem for Linux version 2 (WSL2). TUTORIAL SOBRE COMO INSTALARLO: https://www.youtube.com/watch?v=pzsvN3fuBA0 ¡¡IMPORTANTE!!: El WSL debe ser cambiado a version 2 o el proceso de empaquetamiento no funcinará. Esto no se menciona en el tutorial. Para cambiar WSL1 a WSL2, usa el comando `wsl --set-v ubuntu 2` en Windows cmd. Mas info aquí: https://www.youtube.com/watch?v=JBwgsIWUMZQ
+- Windows Subsystem for Linux version 2 (WSL2). TUTORIAL SOBRE COMO INSTALARLO: https://www.youtube.com/watch?v=pzsvN3fuBA0 ¡¡IMPORTANTE!!: El WSL debe ser cambiado a version 2 o el proceso de empaquetamiento no funcionará. Esto no se menciona en el tutorial. Para cambiar WSL1 a WSL2, usa el comando `wsl --set-v ubuntu 2` en Windows cmd. Mas info aquí: https://www.youtube.com/watch?v=JBwgsIWUMZQ
 
 
 CONSIDERACIONES EN EL MOMENTO DE ESCRIBIR LA FICCIÓN EN AUTOROL:
