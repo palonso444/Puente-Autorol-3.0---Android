@@ -1,4 +1,4 @@
-Este repositorio contiene el código para convertir ficciones de Autorol 3.0 en aplicaciones Android.
+Este repositorio contiene el código para convertir ficciones de Autorol 3.0 (https://natilla.comunidadumbria.com/autorol/) en aplicaciones Android.
 
 
 REQUISITOS INFORMÁTICOS
