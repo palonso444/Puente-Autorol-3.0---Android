@@ -26,7 +26,7 @@ CONSIDERACIONES EN EL MOMENTO DE ESCRIBIR LA FICCIÓN EN AUTOROL:
 
 - El texto de la ficción puede estar centrado o alienado a la izquierda. En caso de querer cambiar el alineamiento dentro de una misma escena, debe usarse una caja de texto nueva.
 
-- Los enlaces deben estar situados siempre al final de la escena. Pueden incluirse, o no, en una caja que contenga texto.
+- Los enlaces deben estar situados siempre al final de la escena. Pueden incluirse, o no, en una caja que contenga texto, pero ésta debe estar siempre abajo del todo.
 
 - Se pueden incluir condiciones o consecuencias tanto en el texto como en los enlaces.
 
