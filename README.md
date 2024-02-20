@@ -47,6 +47,8 @@ CONSIDERACIONES EN EL MOMENTO DE CREAR LA APP:
 
 - Echa un vistazo al archivo `main.py` ya que contiene comentarios que indican los pequeños cambios que hay que hacer para adaptarlo a tu ficción.
 
+- El archivo `.kv` contiene instrucciones referentes al formato de la app. Después de ver el tutorial de Kivy puedes trastear en él para customizarla.
+
 
 PARA EMPAQUETARLA:
 
@@ -54,7 +56,7 @@ PARA EMPAQUETARLA:
 
 - El archivo `autorol.utils` debe incluirse en el mismo directorio que contiene el archivo `main.py`
 
-- El archivo `.kv`, que contiene instrucciones del formato de la app, debe incluirse en el mismo directorio que contiene el archivo `main.py`. Después de ver el tutorial de Kivy puedes trastear en él para customizar tu app.
+- El archivo `.kv` debe incluirse en el mismo directorio que contiene el archivo `main.py`.
 
 - En caso de usar varias fuentes, éstas deben guardarse en formato `.ttf` en un directorio llamado `fonts` dentro del directorio que contiene el archivo `main.py`.
   
